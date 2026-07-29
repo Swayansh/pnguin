@@ -31,46 +31,88 @@ html {
     scroll-behavior: smooth; 
 }
 body { 
-    font-family: 'Inter', sans-serif; line-height: 1.6; background-color: var(--bg-primary); color: var(--text-main); transition: 0.4s; overflow-x: hidden; 
+    font-family: 'Inter', sans-serif; 
+    line-height: 1.6; 
+    background-color: var(--bg-primary); 
+    color: var(--text-main); 
+    transition: 0.4s; 
+    overflow-x: hidden; 
 }
 
 .container { 
-    max-width: 1400px; margin: 0 auto; padding: 0 5rem; 
+    max-width: 1400px; 
+    margin: 0 auto; 
+    padding: 0 5rem; 
 }
 
 .flex-row { 
-    display: flex; justify-content: space-between; align-items: center; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 .navbar { 
-    background-color: var(--navbar-bg); padding: 1rem 0; position: fixed; width: 100%; top: 0; z-index: 1000; border-bottom: 1px solid var(--border); backdrop-filter: blur(8px); 
+    background-color: var(--navbar-bg); 
+    padding: 1rem 0; 
+    position: fixed; 
+    width: 100%; 
+    top: 0; 
+    z-index: 1000; 
+    border-bottom: 1px solid var(--border); 
+    backdrop-filter: blur(8px); 
 }
 
 .nav-right { 
-    display: flex; align-items: center; gap: 2rem; 
+    display: flex; 
+    align-items: center; 
+    gap: 2rem; 
 }
 
 .logo-wrap { 
-    display: flex; align-items: center; gap: 10px; 
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
 }
 
 .mini-badge { 
-    width: 32px; height: 32px; background: rgba(37, 99, 235, 0.1); border: 1.5px solid var(--accent); border-radius: 50%; display: flex; justify-content: center; align-items: center; font-weight: 800; color: var(--accent); font-size: 0.9rem; 
+    width: 32px; 
+    height: 32px; 
+    background: rgba(37, 99, 235, 0.1); 
+    border: 1.5px solid var(--accent); 
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-weight: 800; 
+    color: var(--accent); 
+    font-size: 0.9rem; 
 }
 
 .logo, .footer-logo { 
-    font-size: 1.5rem; font-weight: 800; color: var(--accent); 
+    font-size: 1.5rem; 
+    color: var(--accent); 
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--accent);
+    text-decoration: none;
 }
 
-.logo span, .footer-logo span { color: var(--text-main); 
+.logo span, .footer-logo span { 
+    color: var(--text-main); 
 }
 
 .nav-links { 
-    list-style: none; display: flex; gap: 2rem; 
+    list-style: none; 
+    display: flex; 
+    gap: 2rem; 
 }
 
 .nav-links a { 
-    text-decoration: none; color: var(--text-muted); font-weight: 600; font-size: 0.85rem; transition: 0.3s; 
+    text-decoration: none; 
+    color: var(--text-muted); 
+    font-weight: 600; 
+    font-size: 0.85rem; 
+    transition: 0.3s; 
 }
 
 .nav-links a:hover { 
@@ -78,7 +120,13 @@ body {
 }
 
 .theme-btn { 
-    background: none; border: 1px solid var(--border); color: var(--text-main); cursor: pointer; padding: 8px; border-radius: 12px; display: flex; 
+    background: none; 
+    border: 1px solid var(--border); 
+    color: var(--text-main); 
+    cursor: pointer; 
+    padding: 8px; 
+    border-radius: 12px; 
+    display: flex; 
 }
 
 .sun-icon { 
