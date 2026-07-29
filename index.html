@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pnguin</title>
+    <link rel="icon" href="Logo.ico">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container flex-row">
+            <div class="logo-wrap">
+                <div class="logo">png<span>uin</span></div>
+            </div>
+            <nav class="nav-right">
+                <ul class="nav-links">
+                    <li><a href="#dev">Dev</a></li>
+                    <li><a href="#photography">Photography</a></li>
+                    <li><a href="#music">Music</a></li>
+                    <li><a href="#youtube">YouTube</a></li>
+                </ul>
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+                    <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <h1 class="hero-title">Capturing <span>Logic</span> & Art.</h1>
+                <p class="hero-subtitle">
+                    Developer by day, photographer by golden hour, and pianist by night. Learning new skills evryday and documenting the journey on YouTube.
+                </p>
+                <div class="hero-btns">
+                    <a href="#coding" class="btn btn-primary">Explore</a>
+                    <a href="https://www.youtube.com/@swaysupkar/" target="_blank" class="btn btn-secondary">View Channel</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="dev" class="section bg-separator">
+            <div class="container">
+                <div class="section-header-group">
+                    <div class="section-header no-margin">
+                        <svg class="heading-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/><line x1="14" y1="22" x2="10" y2="2"/></svg>
+                        <h2 class="section-title">Programming Skills</h2>
+                    </div>
+                    <p class="section-tagline">Building digital solutions with a focus on efficiency and clean architecture.<br>Exploring the intersection of design and robust logic.</p>
+                </div>
+                <div class="card-grid">
+                    <div class="card"><h3>Frontend</h3><p>Building responsive, pixel-perfect interfaces with modern CSS and HTML.</p></div>
+                    <div class="card"><h3>Logic</h3><p>Implementing logic using C, Python and MySQL and building responsive projects.</p></div>
+                    <div class="card"><h3>Automation</h3><p>Building responsive projects using IoT and automating them using C.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="photography" class="section bg-white">
+            <div class="container">
+                <div class="section-header-group">
+                    <div class="section-header no-margin">
+                        <svg class="heading-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/></svg>
+                        <h2 class="section-title">Photography</h2>
+                    </div>
+                    <p class="section-tagline">Capturing the world through a monochromatic lens, focusing on light and texture.<br>Every frame tells a story of a moment frozen in time. Here are my top 8 best clicks.</p>
+                </div>
+                
+                <div class="photo-grid">
+                    <div class="photo-item"><a href="#img1"><img src="IMG_20260108_031820.jpg"></a></div>
+                    <div class="photo-item"><a href="#img2"><img src="IMG_20260728_145246.jpg"></a></div>
+                    <div class="photo-item"><a href="#img3"><img src="original_79f2f07e-936c-45db-b022-c80524979a83_IMG20260306105731~2.jpg"></a></div>
+                    <div class="photo-item"><a href="#img4"><img src="IMG20260307150911.jpg"></a></div>
+                    <div class="photo-item"><a href="#img5"><img src="IMG20260316163316.jpg"></a></div>
+                    <div class="photo-item"><a href="#img6"><img src="IMG20260327113835copy.jpg"></a></div>
+                    <div class="photo-item"><a href="#img7"><img src="IMG20260530180635~2.jpg"></a></div>
+                    <div class="photo-item"><a href="#img8"><img src="IMG20260612063910.jpg"></a></div>
+                </div>
+
+                <div class="drive-container">
+                    <a href="https://photos.app.goo.gl/WXCgkcKafwXaZGEP6" target="_blank" class="btn-drive">View More</a>
+                </div>
+
+                <div id="img1" class="lightbox"><a href="#photography" class="close">&times;</a><img src="IMG_20260108_031820.jpg"></div>
+                <div id="img2" class="lightbox"><a href="#photography" class="close">&times;</a><img src="IMG_20260728_145246.jpg"></div>
+                <div id="img3" class="lightbox"><a href="#photography" class="close">&times;</a><img src="original_79f2f07e-936c-45db-b022-c80524979a83_IMG20260306105731~2.jpg""></div>
+                <div id="img4" class="lightbox"><a href="#photography" class="close">&times;</a><img src="IMG20260307150911.jpg"></div>
+                <div id="img5" class="lightbox"><a href="#photography" class="close">&times;</a><img src="IMG20260316163316.jpg"></div>
+                <div id="img6" class="lightbox"><a href="#photography" class="close">&times;</a><img src="IMG20260327113835copy.jpg"></div>
+                <div id="img7" class="lightbox"><a href="#photography" class="close">&times;</a><img src="IMG20260530180635~2.jpg"></div>
+                <div id="img8" class="lightbox"><a href="#photography" class="close">&times;</a><img src="IMG20260612063910.jpg"></div>
+            </div>
+        </section>
+
+        <section id="music" class="section bg-separator">
+            <div class="container">
+                <div class="section-header-group">
+                    <div class="section-header no-margin">
+                        <svg class="heading-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+                        <h2 class="section-title">Music & Composition</h2>
+                    </div>
+                    <p class="section-tagline">Music is my escape from the world of syntax, translating emotions into sound through<br>cinematic arrangements. Here is the songs list that I have covered on my YouTube.</p>
+                </div>
+
+                <div class="piano-song-list">
+                    <div class="song-item">
+                        <span class="song-name">Charlie Puth - Attention (Piano Cover)</span>
+                        <a href="https://youtube.com/shorts/iIcxTelNaFE?si=05Z1rYNx-cBJR4IY" target="_blank" class="btn-mini">Listen Here</a>
+                    </div>
+                    <div class="song-item">
+                        <span class="song-name">Maroon 5 - Memories (Piano Cover)</span>
+                        <a href="https://youtu.be/ivj02hOqP8c?si=yMGzVvcFlgdxfGGM" target="_blank" class="btn-mini">Listen Here</a>
+                    </div>
+                    <div class="song-item">
+                        <span class="song-name">Luis Fonsi - Despacito ft. Daddy Yankee (Piano Cover) </span>
+                        <a href="https://youtu.be/srpQ0gud_d4" target="_blank" class="btn-mini">Listen Here</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="youtube" class="section bg-alt">
+            <div class="container">
+                <div class="section-header-group centered">
+                    <h2 class="section-title">The YouTube Journey</h2>
+                    <p class="section-tagline">Documenting the process of learning and creating in my everyday life.<br>You'll find all types of content here, ranging from programming to various musical covers.</p>
+                </div>
+
+                <div class="yt-grid">
+                    <div class="yt-card">
+                        <img src="Screenshot 2026-07-28 154403.png">
+                        <div class="yt-overlay"><h3>Upcoming: Basic Calc using Python</h3></div>
+                    </div>
+                    <div class="yt-card">
+                        <a href="https://youtu.be/1Z0xYQ70hPY?si=DrkxgaEuL7bJoOFb" target="_blank" class="yt-card">
+                        <img src="1Z0xYQ70hPY-HD.jpg">
+                        <div class="yt-overlay"><h3>Understanding Visual Basic</h3></div></a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <div class="logo-wrap">
+                    <div class="footer-logo">png<span>uin</span></div>
+                </div>
+                <p class="footer-tagline">© 2026 <span class="divider">|</span> Built with passion.</p>
+            </div>
+            <div class="footer-socials">
+                <a href="https://www.youtube.com/@swaysupkar" target="_blank" class="social-icon1">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M23.5 6.2c-.3-1.1-1.1-2-2.2-2.3C19.3 3.5 12 3.5 12 3.5s-7.3 0-9.3.4c-1.1.3-1.9 1.2-2.2 2.3C.1 8.2 0 12 0 12s.1 3.8.4 5.8c.3 1.1 1.1 2 2.2 2.3 2 .4 9.3.4 9.3.4s7.3 0 9.3-.4c1.1-.3 1.9-1.2 2.2-2.3.4-2 .4-5.8.4-5.8s-.1-3.8-.4-5.8zM9.5 15.5V8.5l6.5 3.5-6.5 3.5z"/>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/meetsway/" target="_blank" class="social-icon2">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9h3.56v11.45zM5.34 7.58c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zM20.45 20.45h-3.56v-5.6c0-1.34-.03-3.06-1.87-3.06-1.87 0-2.15 1.46-2.15 2.96v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.63-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"/>
+                    </svg>
+                </a>
+                <a href="https://github.com/Swayansh" target="_blank" class="social-icon3">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z">
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/sway9186/" target="_blank" class="social-icon4">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.332 3.608 1.308.975.975 1.245 2.242 1.308 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.332 2.633-1.308 3.608-.975.975-2.242 1.245-3.608 1.308-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.332-3.608-1.308-.975-.975-1.245-2.242-1.308-3.608-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.062-1.366.332-2.633 1.308-3.608.975-.975 2.242-1.245 3.608-1.308 1.266-.058 1.646-.07 4.85-.07zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.358-.2 6.78-2.618 6.98-6.98.058-1.281.072-1.689.072-4.948s-.014-3.667-.072-4.947c-.2-4.358-2.618-6.78-6.98-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('theme-toggle').addEventListener('click', () => {
+            document.body.classList.toggle('dark-theme');
+        });
+    </script>
+</body>
+</html>
